@@ -61,9 +61,11 @@ void bilanganGanjil() {
 
 ///Fungsi untuk menampilkan nama Aisyah sebanyak 4 kali
 void namaAisyah() {
-  // Bagian 3: Perulangan nama (while)
+  /* Bagian 4: Perulangan nama (while)
+   Di bawah ini adalah proses perulangan untuk menampilkan nama Aisyah sebanyak 4 kali.*/
   int hitung = 4;
   while (hitung > 0) {
+    // Menampilkan nama Aisyah dengan print() dan string interpolation
     print('Aisyah');
     hitung--;
   }
